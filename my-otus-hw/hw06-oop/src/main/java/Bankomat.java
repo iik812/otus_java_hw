@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
+
 public class Bankomat {
     private Balance balance = new Balance();
     private TreeMap<Integer, Integer> buffer = new TreeMap<>(Collections.reverseOrder());

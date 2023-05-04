@@ -1,5 +1,5 @@
 public class Balance implements GetBalance {
-    int count;
+    int count ;
 
     @Override
     public int getCount() {
