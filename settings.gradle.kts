@@ -4,6 +4,7 @@ pluginManagement {
     val springframeworkBoot: String by settings
     val johnrengelmanShadow: String by settings
     val jib: String by settings
+    val protobufVer: String by settings
 
     plugins {
         id("fr.brouillard.oss.gradle.jgitver") version jgitver
@@ -11,6 +12,7 @@ pluginManagement {
         id("org.springframework.boot") version springframeworkBoot
         id("com.github.johnrengelman.shadow") version johnrengelmanShadow
         id("com.google.cloud.tools.jib") version jib
+        id("com.google.protobuf") version protobufVer
     }
 }
 include("hw01-gradle")
@@ -21,3 +23,6 @@ include("hw04-gc")
 include("hw05-bc")
 include("hw06-oop")
 include("hw07-patterns")
+include("hw08-io")
+include("hw09-jdbc")
+include("hw10-jpql:homework")
