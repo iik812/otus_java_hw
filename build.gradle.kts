@@ -42,6 +42,7 @@ allprojects {
     val jsr305: String by project
     val grpc: String by project
     val r2dbcPostgresql: String by project
+    val lombok: String by project
 
     apply(plugin = "io.spring.dependency-management")
     dependencyManagement {
